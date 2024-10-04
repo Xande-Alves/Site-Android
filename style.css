@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "android";
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+    --fonte-android: "android", sans-serif;
+}
+
+html {
+    background-color: #84E1AD; 
+     
+}
+header {
+    background-image: linear-gradient(to bottom, #3CD681, #1A5C38);
+    height: 170px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin: 0px; 
+    
+}
+header > h1 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px 1px #12502e;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+header > p {
+    color: white;
+    width: 380px;
+    text-align: center;
+    margin: auto;
+    padding: 9px;
+    padding-bottom: 0px;
+    text-shadow: 1px 1px 1px #12502e;
+    
+}
+nav {
+    margin-left: 13px;
+    padding: 0px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+nav > a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: #3bc077;
+    transition: 0.8s;
+}
+
+main {
+    font-family: var(--fonte-padrao);
+    max-width: 850px;
+    min-width: 320px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 2px 2px 4px #375f48;
+    line-height: 1.5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+h1 {
+    color: #12502e;
+    font-family: var(--fonte-android);
+    font-size: 2em;
+    
+}
+
+p {
+    text-indent: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.h1-bg {
+    color: #166339;
+    font-family: var(--fonte-android);
+    font-size: 1.4em;
+    background-image: linear-gradient(to left, white,  #16633948);
+    box-sizing: border-box;
+    text-indent: 8px;
+}
+
+p > a {
+    color: #1f8a4f;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #1f8a4f;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+picture {
+    margin: auto;
+}
+
+picture > img {
+    width: 100%;
+}
+
+#video {
+    
+    background-color: #1A5C38;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 54%;
+}
+
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div#imgcentro {
+    display: flex;
+    justify-content: center;
+}
+
+div#aprendermais > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3bc077;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div#aprendermais {
+    background-color: #8cf5bb8f;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+div#aprendermais > p {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+  }
+  
+ul li:before {
+    font-weight: bolder;
+    content: '✓  ';
+}
+
+ul > div {
+    width: 50%;
+    font-weight: bold;
+}
+
+li > span {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1A5C38;
+    
+    color: white;
+    text-align: center; 
+}
+
+footer > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer > p >span {
+    font-weight: bolder;
+    color: white;
+}
+
+.footerLink {
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+}
+.footerLink:hover {
+    color: #13eb74;
+}
