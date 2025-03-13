@@ -56,10 +56,9 @@ nav {
     padding-top: 15px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    width: 100%;
 }
 nav > a {
-    font-size: 0.9em;
+    font-size: 1.2em;
     text-decoration: none;
     color: white;
     margin-bottom: 0px;
